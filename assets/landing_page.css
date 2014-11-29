@@ -1,0 +1,119 @@
+.navbar-brand img {
+  height: 1.5em;
+}
+
+.catalogBackground {
+  min-height: 100%;
+  min-width: 100%;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  max-width: none!important;
+  z-index: -2;
+}
+
+.catalogSection {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.catalogSection .sectionTitle {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.catalogNav {
+  background: rgba(43, 0, 43, 0.5);
+}
+
+.catalogNav .navbar-button {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+.catalogHeader {
+  color: #ffffff;
+  background: rgba(43, 0, 43, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.catalogHeader .sectionTitle {
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+.catalogHeader .sectionTitle h1 {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.catalogHeader .sectionTitle h2 {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  font-size: .5em;
+  font-weight: 200;
+  line-height: 1.2em;
+}
+
+.catalogDescription {
+  background: rgba(233, 233, 233, 1);
+  text-align: center;
+  color: #444;
+}
+
+.catalogDescription h3 {
+  line-height: 2em;
+}
+
+.catalogFeatures {
+  background: rgba(43, 0, 43, 0.5);
+  text-align: center;
+  color: #dedede;
+}
+
+.catalogFeature {
+  text-align: center;
+}
+
+.catalogFeatures .glyphicon {
+  font-size: 3em;
+}
+
+.footer {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgba(0,0,0, 1);
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer a {
+  font-size: 14px;
+}
+
+.footer ul {
+  padding: 0px;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer .smzenhelp a:before,
+footer .smzenhelp a:before {
+  color: #ffffff;
+}
